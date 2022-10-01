@@ -1,0 +1,22 @@
+{
+  "pages": {
+    "home": {
+      "title": "The definitive accessibility guide for developers.",
+      "card": {
+        "eye": "Vision impairment",
+        "ear": "Hearing loss",
+        "autism": "Autism",
+        "question": "Quiz",
+        "tools": "Tools",
+        "lightbulb": "Tips"
+      },
+      "footer": {
+        "message": "Made with love and following WCAG standards."
+      }
+    }
+  },
+  "language": {
+    "pt-BR": "pt-BR",
+    "en": "en"
+  }
+}

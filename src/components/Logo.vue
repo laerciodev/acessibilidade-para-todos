@@ -21,5 +21,6 @@
 <style>
 .logo {
   cursor: pointer;
+  margin-left: 10%;
 }
 </style>

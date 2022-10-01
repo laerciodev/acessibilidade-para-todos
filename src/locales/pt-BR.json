@@ -9,7 +9,14 @@
         "question": "Quiz",
         "tools": "Ferramentas",
         "lightbulb": "Dicas Úteis"
+      },
+      "footer": {
+        "message": "Feito com amor e seguindos os padrões do WCAG."
       }
     }
+  },
+  "language": {
+    "pt-BR": "pt-BR",
+    "en": "en"
   }
 }
