@@ -1,5 +1,8 @@
 <template>
   <Header></Header>
+  <main>
+    <router-view />
+  </main>
 </template>
 
 <script setup lang="ts">

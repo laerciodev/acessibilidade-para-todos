@@ -1,0 +1,15 @@
+{
+  "pages": {
+    "home": {
+      "title": "O guia definitivo de acessibilidade para desenvolvedores",
+      "card": {
+        "eye": "Deficiência visual",
+        "ear": "Deficiência auditiva",
+        "autism": "Autismo",
+        "question": "Quiz",
+        "tools": "Ferramentas",
+        "lightbulb": "Dicas Úteis"
+      }
+    }
+  }
+}

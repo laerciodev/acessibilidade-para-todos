@@ -10,9 +10,12 @@
   font-size: 62.5%;
 }
 
+html,
 body {
   height: 100%;
+}
 
+body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
   color: #fff;
