@@ -5,7 +5,7 @@
     </h1>
   </div>
   <div :class="$style.cards">
-    <Card icon="eye" />
+    <Card icon="eye" to="/deficiencia-visual" />
     <Card icon="ear" />
     <Card icon="autism" />
     <Card icon="question" />

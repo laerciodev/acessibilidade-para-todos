@@ -52,6 +52,7 @@ const instance = getCurrentInstance();
 function changeLanguage(lang: string) {
   app.config.globalProperties.$i18n.locale = lang;
   selectedLanguage.value = lang;
+  document.querySelector('html')?.setAttribute('lang', lang);
 }
 
 </script>

@@ -1,10 +1,5 @@
 <template>
-  <div :class="
-    [
-      $style.card,
-      color
-    ]
-  ">
+  <div :class="[$style.card, color]" @click="goTo">
     <Eye v-if="props.icon === 'eye'" />
     <Ear v-if="props.icon === 'ear'" />
     <Puzzle v-if="props.icon === 'autism'" />
@@ -19,20 +14,23 @@
 
 <script lang="ts" setup>
 import { useCssModule, computed } from 'vue';
+import { useRouter } from 'vue-router';
+
 import Eye from './icons/eye.vue';
 import Ear from './icons/ear.vue';
 import Puzzle from './icons/puzzle.vue';
 import Question from './icons/question.vue';
 import Tools from './icons/tools.vue';
-import Lightbulb from './icons/lightbulb.vue';
 import Lightbuib from './icons/lightbuib.vue';
 
 type Props = {
   icon: string;
+  to: string,
 }
 
 const props = withDefaults(defineProps<Props>(), {
   icon: 'eye',
+  to: '/'
 });
 
 const styles = useCssModule();
@@ -48,6 +46,12 @@ const color: any = computed(() => {
 
   return icons[props.icon];
 });
+
+const router = useRouter();
+
+const goTo = () => {
+  router.push(props.to);
+}
 
 </script>
 

@@ -1,5 +1,5 @@
 <template>
-  <svg class="logo" fill="#FFF" width="120" data-name="Layer 1" version="1.1" viewBox="0 0 250.88 122.88" xmlns="http://www.w3.org/2000/svg"
+  <svg @click="goToHome" class="logo" fill="#FFF" width="120" data-name="Layer 1" version="1.1" viewBox="0 0 250.88 122.88" xmlns="http://www.w3.org/2000/svg"
     xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <title>Logo do site acessbilidade para devs</title>
@@ -17,6 +17,16 @@
       stroke-width=".07633" />
   </svg>
 </template>
+
+<script lang="ts" setup>
+import { useRouter } from 'vue-router';
+
+const routes = useRouter();
+
+const goToHome = () => {
+  routes.push('/');
+}
+</script>
 
 <style>
 .logo {

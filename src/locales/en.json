@@ -13,6 +13,16 @@
       "footer": {
         "message": "Made with love and following WCAG standards."
       }
+    },
+    "vision": {
+      "people": {
+        "low_vision": {
+          "title": "Low vision"
+        },
+        "blind": {
+          "title": "Blind"
+        }
+      }
     }
   },
   "language": {
