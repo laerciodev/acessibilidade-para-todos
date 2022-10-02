@@ -6,11 +6,12 @@
   </div>
   <div :class="$style.cards">
     <Card icon="eye" to="/deficiencia-visual" />
-    <Card icon="ear" />
+    <Card icon="ear" to="/deficiencia-auditiva" />
     <Card icon="autism" />
     <Card icon="question" />
     <Card icon="tools" />
     <Card icon="lightbulb" />
+    <Card icon="feedback" to="/feedback" />
   </div>
 </template>
 

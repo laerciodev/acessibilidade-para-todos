@@ -1,37 +1,42 @@
 <template>
-  <div :class="$style.container">
-    <article :class="$style.article">
-      <!-- <p>
-        Nesta seção, iremos tentar fugir um pouco do padrão de conteúdo sobre acessibilidade espalhados pela internet.
-        Nosso foco aqui será exibir trechos de código HTML seguindo boas práticas.
-      </p>
-      <p>
-        Escolha sua tag favorita e veja as dicas de boas práticas.
-      </p>
-      <p>Are you ready to the show?</p> -->
-    </article>
+  <section :class="$style.container">
+    <header :class="$style.header">
+      <Eye />
+      <h1 :class="$style.title">
+        Deficiência visual
+      </h1>
+    </header>
     <div :class="$style.tags">
       <span :class="$style.tag">
         a
       </span>
     </div>
     <Anchor />
-  </div>
+  </section>
 </template>
 
 <script lang="ts" setup>
+import Eye from '@/components/icons/eye.vue';
 import Anchor from '@/components/anchor.vue';
 
 const tags = ['a', '']
 </script>
 
 <style lang="scss" module>
+.header {
+  display: flex;
+}
+
+.title {
+  margin-left: 16px;
+  color: #00c86f;
+}
+
 .container {
   cursor: pointer;
   width: 80%;
   max-width: 1080px;
-  margin-left: 10%;
-  margin-top: 16px;
+  margin: 32px auto;
 }
 
 .article {

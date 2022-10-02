@@ -2,14 +2,6 @@
   "pages": {
     "home": {
       "title": "O guia definitivo de acessibilidade para desenvolvedores",
-      "card": {
-        "eye": "Deficiência visual",
-        "ear": "Deficiência auditiva",
-        "autism": "Autismo",
-        "question": "Quiz",
-        "tools": "Ferramentas",
-        "lightbulb": "Dicas Úteis"
-      },
       "footer": {
         "message": "Feito com amor e seguindos os padrões do WCAG."
       }
@@ -28,5 +20,14 @@
   "language": {
     "pt-BR": "pt-BR",
     "en": "en"
+  },
+  "accessibility": {
+    "eye": "Deficiência visual",
+    "ear": "Deficiência auditiva",
+    "autism": "Autismo",
+    "question": "Quiz",
+    "tools": "Ferramentas",
+    "lightbulb": "Sites acessíveis",
+    "feedback": "Feedback"
   }
 }

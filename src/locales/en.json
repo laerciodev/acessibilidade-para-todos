@@ -28,5 +28,14 @@
   "language": {
     "pt-BR": "pt-BR",
     "en": "en"
+  },
+  "accessibility": {
+    "eye": "Vision impairment",
+    "ear": "Hearing loss",
+    "autism": "Autism",
+    "question": "Quiz",
+    "tools": "Tools",
+    "lightbulb": "Tips",
+    "feedback": "Feedback"
   }
 }

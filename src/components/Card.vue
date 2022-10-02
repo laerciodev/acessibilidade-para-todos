@@ -6,8 +6,10 @@
     <Question v-if="props.icon === 'question'" />
     <Tools v-if="props.icon === 'tools'" />
     <Lightbuib v-if="props.icon === 'lightbulb'" />
+    <Feedback v-if="props.icon === 'feedback'" />
+
     <h4 :class="$style.title">
-      {{ $t(`pages.home.card.${props.icon}`) }}
+      {{ $t(`accessibility.${props.icon}`) }}
     </h4>
   </div>
 </template>
@@ -22,6 +24,7 @@ import Puzzle from './icons/puzzle.vue';
 import Question from './icons/question.vue';
 import Tools from './icons/tools.vue';
 import Lightbuib from './icons/lightbuib.vue';
+import Feedback from './icons/feedback.vue';
 
 type Props = {
   icon: string;
@@ -42,6 +45,7 @@ const color: any = computed(() => {
     question: styles.question,
     tools: styles.tools,
     lightbulb: styles.lightbulb,
+    feedback: styles.feedback,
   }
 
   return icons[props.icon];
@@ -90,6 +94,10 @@ const goTo = () => {
 
   &.lightbulb {
     color: #ffba05,
+  }
+
+  &.feedback {
+    color: #ff8c2a,
   }
 
   .title {
