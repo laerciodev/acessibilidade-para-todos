@@ -28,7 +28,7 @@
 
 <script lang="ts" setup>
 import { ref, getCurrentInstance } from 'vue';
-import { app } from '@/main.ts';
+import { app } from '../../src/main';
 import Brazil from '@/components/icons/brazil.vue';
 import US from '@/components/icons/us.vue';
 import ArrowDown from '@/components/icons/arrow-down.vue';
