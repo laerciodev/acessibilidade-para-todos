@@ -3,7 +3,7 @@
     <Eye v-if="props.icon === 'eye'" />
     <Ear v-if="props.icon === 'ear'" />
     <Puzzle v-if="props.icon === 'autism'" />
-    <Question v-if="props.icon === 'question'" />
+    <Question v-if="props.icon === 'quiz'" />
     <Tools v-if="props.icon === 'tools'" />
     <Lightbuib v-if="props.icon === 'lightbulb'" />
     <Feedback v-if="props.icon === 'feedback'" />
@@ -42,7 +42,7 @@ const color: any = computed(() => {
     eye: styles.eye,
     ear: styles.ear,
     autism: styles.autism,
-    question: styles.question,
+    quiz: styles.quiz,
     tools: styles.tools,
     lightbulb: styles.lightbulb,
     feedback: styles.feedback,
@@ -84,7 +84,7 @@ const goTo = () => {
     color: #9cd33b;
   }
 
-  &.question {
+  &.quiz {
     color: #f16165;
   }
 

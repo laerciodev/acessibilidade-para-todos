@@ -15,6 +15,18 @@
           "title": "Cegos"
         }
       }
+    },
+    "tools": {
+      "axe": "Axe é uma ferramenta de auditoria de acessibilidade desenvolvida pela Deque Systems, renomada fornecedora de soluções de acessibilidade na web. É usado principalmente por empresas. Seus recursos incluem Auditor, DevTools, Monitor e uma extensão de navegador de acessibilidade gratuita.",
+      "accessi": "Accessi.org é um verificador de acessibilidade inovador que é único. Possui uma ferramenta de auditoria que fornece representações gráficas dos componentes que precisam ser corrigidos em um site. É fácil de usar e é grátis.",
+      "a11y": "Esta é uma ferramenta gratuita de verificação de contraste de cores desenvolvida pelo Bureau of Internet Accessibility. Ele verifica se o contraste de cores em qualquer site está em conformidade com os padrões AA do nível WCAG 2.0. Não possui extensão de navegador.",
+      "google-chrome-accessibility-developer-tools": "Uma ferramenta gratuita e fácil de usar disponível nas ferramentas de desenvolvedor do Google Chrome. Possui 17 regras de auditoria e um painel com informações de depuração",
+      "wave": "WAVE é um verificador de acessibilidade desenvolvido pela WebAim. Possui uma série de ferramentas para avaliar a acessibilidade de conteúdo digital. Ele cobre especificamente problemas de acessibilidade com imagens, títulos, rótulos e contraste de cores. Tem uma extensão de navegador e um serviço de API. Claro, ele pode ser usado simplesmente inserindo um URL online.",
+      "pa11y": "Pa11y é uma ferramenta de verificação de acessibilidade gratuita e de código aberto. Ele verifica se um site está em conformidade com os padrões de acessibilidade da web. Ele pode ser usado como uma ferramenta de linha de comando ou como uma biblioteca Node.js.",
+      "crownpeak": "Uma ferramenta de verificação de acessibilidade da Web que oferece uma verificação gratuita que vem com um relatório complementar que descreve os problemas em um site e como corrigi-los. Ele também possui uma solução de acessibilidade da Web corporativa paga. Além disso, a Crownpeak oferece serviços de consultoria e remediação.",
+      "ibm": "Uma extensão de acessibilidade da Web para desenvolvedores que trabalha com o mecanismo de regras da IBM para detectar problemas de acessibilidade. É capaz de trabalhar com os navegadores Google Chrome e Mozilla Firefox. Por fim, para integração completa, em um site, a IBM também oferece plug-ins para NodeJS e Karma.",
+      "chrome-lens": "Chrome Lens trata-se de uma ferramenta de acessibilidade feita para pessoas com deficiência visual. Tem as seguintes características filtros – para ajudar um indivíduos daltônicos a usarem um site. Também possui uma ferramenta de auditoria de sites, e rastreadores – para ajudar na navegação pelo teclado.",
+      "screen-readers": "Os leitores de tela são um subconjunto de dispositivos de tecnologia assistiva que ajudam pessoas com deficiência visual a experimentar o conteúdo dos sites. Exemplos de ótimos leitores de tela são JAWS, ORCA, NVDA e VoiceOver."
     }
   },
   "language": {
@@ -25,7 +37,7 @@
     "eye": "Deficiência visual",
     "ear": "Deficiência auditiva",
     "autism": "Autismo",
-    "question": "Quiz",
+    "quiz": "Quiz",
     "tools": "Ferramentas",
     "lightbulb": "Sites acessíveis",
     "feedback": "Feedback"

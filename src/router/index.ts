@@ -5,6 +5,8 @@ const routes: Array<RouteRecordRaw> = [
   { path: '/deficiencia-visual', component: () => import('@/pages/Vision.vue'), name: 'Vision' },
   { path: '/deficiencia-auditiva', component: () => import('@/pages/Ear.vue'), name: 'Ear' },
   { path: '/feedback', component: () => import('@/pages/Feedback.vue'), name: 'Feedback' },
+  { path: '/quiz', component: () => import('@/pages/Quiz.vue'), name: 'Quiz' },
+  { path: '/tools', component: () => import('@/pages/Tools.vue'), name: 'Tools' },
 ]
 
 const router = createRouter({

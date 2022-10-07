@@ -23,6 +23,9 @@
           "title": "Blind"
         }
       }
+    },
+    "tools": {
+      "axe": "Axe is an accessibility audit tool developed by Deque systems, a renowned web accessibility solution provider. It is mainly used by enterprises. Its features include Auditor, DevTools, Monitor, and a free Accessibility Browser Extension."
     }
   },
   "language": {

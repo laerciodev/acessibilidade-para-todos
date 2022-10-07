@@ -8,8 +8,8 @@
     <Card icon="eye" to="/deficiencia-visual" />
     <Card icon="ear" to="/deficiencia-auditiva" />
     <Card icon="autism" />
-    <Card icon="question" />
-    <Card icon="tools" />
+    <Card icon="quiz" to="/quiz" />
+    <Card icon="tools" to="/tools" />
     <Card icon="lightbulb" />
     <Card icon="feedback" to="/feedback" />
   </div>
