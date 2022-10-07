@@ -31,14 +31,18 @@ type Props = {
   to: string,
 }
 
+type Icon = {
+  [eye: string]: string;
+}
+
 const props = withDefaults(defineProps<Props>(), {
   icon: 'eye',
   to: '/'
 });
 
 const styles = useCssModule();
-const color: any = computed(() => {
-  const icons = {
+const color = computed(() => {
+  const icons: Icon = {
     eye: styles.eye,
     ear: styles.ear,
     autism: styles.autism,
